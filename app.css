@@ -1,0 +1,15 @@
+h1{
+    position: justify;
+    text-align: center;
+}
+li {
+    padding: 3px;
+}
+button{
+    margin: 5px;
+}
+.done-task {
+	color: darkred;
+	font-weight: bold;
+    text-decoration: line-through;
+}
