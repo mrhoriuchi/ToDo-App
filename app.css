@@ -1,15 +1,48 @@
-h1{
-    position: justify;
-    text-align: center;
+body {
+  background-color: rgb(236, 231, 207);
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-family: sans-serif;
+}
+h1 {
+  position: relative;
+  text-align: center;
+  background-color: rgb(133, 133, 133);
+  color: white;
+  margin: 0;
+  padding: 20px;
+  align-self: left;
+}
+form {
+  padding: 10px;
+  text-align: center;
 }
 li {
-    padding: 3px;
+  padding: 3px;
+  margin: 2px;
+  font-size: larger;
 }
-button{
-    margin: 5px;
+button {
+  margin: 6px;
+  background-color: #465246; /* Green */
+  border: 15px black;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+}
+button:hover {
+  opacity: 80%;
+  cursor: pointer;
+}
+form button {
+  background-color: #a9b879;
 }
 .done-task {
-	color: darkred;
-	font-weight: bold;
-    text-decoration: line-through;
+  color: darkred;
+  font-weight: bold;
+  text-decoration: line-through;
 }
