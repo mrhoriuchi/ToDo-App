@@ -19,6 +19,11 @@ form {
   padding: 10px;
   text-align: center;
 }
+ul {
+  text-align: center;
+  display: inline-block;
+  margin: auto;
+}
 li {
   padding: 3px;
   margin: 2px;
